@@ -51,24 +51,26 @@ const HomePage: React.FC = () => {
     <div className="space-y-12 pb-20">
       {/* Hero Section */}
       <div className="bg-white rounded-[2.5rem] shadow-sm border border-brand-100 p-10 md:p-16 text-center">
-        <h2 className="font-bold text-brand-900 mb-8 leading-tight">
-          <span className="text-2xl md:text-4xl block mb-4">
-            気軽に1時間ボランティア体験！
-          </span>
-          <span className="text-brand-600 text-sm md:text-base block font-medium opacity-80">
-            世田谷の非営利団体や福祉の活動を体験して地域とつながろう
-          </span>
-        </h2>
+        <div className="space-y-4 mb-10">
+          <h2 className="font-bold text-brand-900 leading-tight">
+            <span className="text-2xl md:text-4xl block mb-2">
+              気軽に1時間ボランティア体験！
+            </span>
+            <span className="text-brand-600 text-[13px] md:text-sm block font-bold opacity-80 mt-1">
+              世田谷の非営利団体や福祉の活動を体験して地域とつながろう
+            </span>
+          </h2>
+        </div>
         
-        <div className="text-gray-500 text-sm md:text-base max-w-2xl mx-auto mb-10 space-y-6 leading-relaxed">
+        <div className="text-gray-500 text-sm md:text-base max-w-2xl mx-auto mb-10 space-y-4 leading-relaxed">
           <p>
-            世田谷ボランティアビンゴツアーズ（世田谷ボラビン）は、<br className="hidden md:block"/>
-            地域に関わりたい参加者がビンゴを目指して<br className="hidden md:block"/>
-            世田谷の福祉事業所・NPOなどで１時間のボランティアを体験し、<br className="hidden md:block"/>
+            世田谷ボランティアビンゴツアーズ（世田谷ボラビン）は、
+            地域に関わりたい参加者がビンゴを目指して
+            世田谷の福祉事業所・NPOなどで１時間のボランティアを体験し、
             地域につながりをつくる期間限定のイベントです。
           </p>
-          <p>
-            世田谷のNPOや福祉事業所の活動を知ることで<br className="hidden md:block"/>
+          <p className="font-medium text-brand-900/60">
+            世田谷のNPOや福祉事業所の活動を知ることで、
             新たな何かが生まれるかもしれません。
           </p>
         </div>
