@@ -55,12 +55,12 @@ const HomePage: React.FC = () => {
           <span className="text-2xl md:text-4xl block mb-4">
             気軽に1時間ボランティア体験！
           </span>
-          <span className="text-brand-600 text-lg md:text-2xl block font-bold opacity-90">
+          <span className="text-brand-600 text-base md:text-xl block font-medium opacity-80">
             世田谷の非営利団体や福祉の活動を体験して地域とつながろう
           </span>
         </h2>
         
-        <div className="text-gray-500 text-sm md:text-base max-w-2xl mx-auto mb-10 space-y-6 leading-relaxed text-left md:text-center">
+        <div className="text-gray-500 text-sm md:text-base max-w-2xl mx-auto mb-10 space-y-6 leading-relaxed">
           <p>
             世田谷ボランティアビンゴツアーズ（世田谷ボラビン）は、<br className="hidden md:block"/>
             地域に関わりたい参加者がビンゴを目指して<br className="hidden md:block"/>
