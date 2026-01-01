@@ -60,7 +60,7 @@ const HomePage: React.FC = () => {
           </span>
         </h2>
         
-        <div className="text-gray-500 text-sm md:text-base max-w-2xl mx-auto mb-10 space-y-6 leading-relaxed">
+        <div className="text-gray-500 text-sm md:text-base max-w-2xl mx-auto mb-10 space-y-6 leading-relaxed text-left md:text-center">
           <p>
             世田谷ボランティアビンゴツアーズ（世田谷ボラビン）は、<br className="hidden md:block"/>
             地域に関わりたい参加者がビンゴを目指して<br className="hidden md:block"/>
