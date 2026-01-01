@@ -1,9 +1,8 @@
-
 import React, { useEffect, useState } from 'react';
 import { getEvents } from '../services/storageService';
 import { VolunteerEvent } from '../types';
 import EventCard from '../components/EventCard';
-import { Search, History, Sparkles } from 'lucide-react';
+import { Search, History } from 'lucide-react';
 
 const HomePage: React.FC = () => {
   const [activeEvents, setActiveEvents] = useState<VolunteerEvent[]>([]);
@@ -52,20 +51,24 @@ const HomePage: React.FC = () => {
     <div className="space-y-12 pb-20">
       {/* Hero Section */}
       <div className="bg-white rounded-[2.5rem] shadow-sm border border-brand-100 p-10 md:p-16 text-center">
-        <h2 className="text-2xl md:text-4xl font-bold text-brand-900 mb-6 leading-tight">
-          気軽に1時間ボランティア体験！<br/>
-          <span className="text-brand-600">世田谷の非営利団体や福祉の活動を体験して地域とつながろう</span>
+        <h2 className="font-bold text-brand-900 mb-8 leading-tight">
+          <span className="text-2xl md:text-4xl block mb-4">
+            気軽に1時間ボランティア体験！
+          </span>
+          <span className="text-brand-600 text-lg md:text-2xl block font-bold opacity-90">
+            世田谷の非営利団体や福祉の活動を体験して地域とつながろう
+          </span>
         </h2>
         
-        <div className="text-gray-500 text-sm md:text-base max-w-2xl mx-auto mb-10 space-y-4 leading-relaxed">
+        <div className="text-gray-500 text-sm md:text-base max-w-2xl mx-auto mb-10 space-y-6 leading-relaxed">
           <p>
-            世田谷ボランティアビンゴツアーズ（世田谷ボラビン）は、
-            地域に関わりたい参加者がビンゴを目指して
-            世田谷の福祉事業所・NPOなどで１時間のボランティアを体験し、
+            世田谷ボランティアビンゴツアーズ（世田谷ボラビン）は、<br className="hidden md:block"/>
+            地域に関わりたい参加者がビンゴを目指して<br className="hidden md:block"/>
+            世田谷の福祉事業所・NPOなどで１時間のボランティアを体験し、<br className="hidden md:block"/>
             地域につながりをつくる期間限定のイベントです。
           </p>
           <p>
-            世田谷のNPOや福祉事業所の活動を知ることで
+            世田谷のNPOや福祉事業所の活動を知ることで<br className="hidden md:block"/>
             新たな何かが生まれるかもしれません。
           </p>
         </div>
