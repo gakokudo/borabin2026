@@ -55,7 +55,7 @@ const HomePage: React.FC = () => {
           <span className="text-2xl md:text-4xl block mb-4">
             気軽に1時間ボランティア体験！
           </span>
-          <span className="text-brand-600 text-base md:text-xl block font-medium opacity-80">
+          <span className="text-brand-600 text-sm md:text-base block font-medium opacity-80">
             世田谷の非営利団体や福祉の活動を体験して地域とつながろう
           </span>
         </h2>
